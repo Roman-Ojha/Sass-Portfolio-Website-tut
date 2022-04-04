@@ -1,6 +1,9 @@
 @import "./config";
 @import "./home";
 @import "./menu";
+@import "./about";
+@import "./projects";
+// this scss file will contain all the main property that is needed for all the pages
 
 body {
   background: $primary-color;
@@ -21,6 +24,9 @@ a {
   text-decoration: none;
 }
 
+.text-secondary {
+  color: $secondary-color;
+}
 header {
   position: fixed;
   z-index: 2;
