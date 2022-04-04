@@ -3,8 +3,9 @@
 @import "./menu";
 @import "./about";
 @import "./projects";
+@import "./contact";
+@import "./responsive";
 // this scss file will contain all the main property that is needed for all the pages
-
 body {
   background: $primary-color;
   color: set-text-color($primary-color);
